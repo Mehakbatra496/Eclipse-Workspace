@@ -1,0 +1,7 @@
+class A1_Servlet
+{
+	public static void main(String args[])
+	{
+		System.out.println("Mehak here");
+	}
+}

@@ -1,0 +1,24 @@
+<web-app>
+<servlet>
+	<servlet-name>
+	 MS
+	</servlet-name>
+
+	<servlet-class>
+	 MyServlet
+	</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>
+	 MS
+	</servlet-name>
+		 
+	<url-pattern> /mhkserver  
+	
+	</url-pattern>
+
+
+</servlet-mapping>
+</web-app>

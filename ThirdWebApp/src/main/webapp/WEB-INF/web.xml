@@ -1,0 +1,24 @@
+<web-app>
+<servlet>
+	<servlet-name>
+	 MS
+	</servlet-name>
+
+	<servlet-class>
+	 A2_SearchRequest
+	</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>
+	 MS
+	</servlet-name>
+		 
+	<url-pattern> /sss  
+	
+	</url-pattern>
+
+
+</servlet-mapping>
+</web-app>

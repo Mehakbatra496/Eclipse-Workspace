@@ -1,0 +1,9 @@
+
+public class B1_Inheritance {
+
+	public static void main(String args)
+	{
+		System.out.print("Hello");
+		
+	}
+}
