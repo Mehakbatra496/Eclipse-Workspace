@@ -1,0 +1,64 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/sss")
+public class A2_SearchRequest extends HttpServlet
+{
+	@Override
+	
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException
+	{
+		//request response commutincaton by server to browser starts
+		System.out.println("hello");
+		PrintWriter pw= res.getWriter();
+		pw.println("I reached....");
+		res.setContentType("text/html");
+		String search1= req.getParameter("search1");
+		
+		pw.print("<html>");
+		pw.print("<head>");
+		pw.print("</head>");
+		
+		pw.print("<body>");
+pw.print("<h2>");
+		pw.println("You searched - "+search1);
+		pw.print("</h2>");
+		pw.print("</body>");
+
+		pw.print("</html>");
+		//request response commutincaton by server to browser ends
+
+		//sendError commutincaton by server to browser starts
+
+//				res.sendError(404,"hello mehak, page not found"); 
+		//sendError commutincaton by server to browser ends
+		
+		
+		//communication via hyperlink starts
+		pw.print("<html>");
+		pw.print("<head>");
+		pw.print("</head>");
+		
+		pw.print("<body>");
+pw.print("<h2>");
+		pw.println("You searched - "+search1);
+		pw.print("</h2>");
+		pw.print("</body>");
+
+		pw.print("</html>");
+
+		//communication via hyperlink ends
+
+		
+
+	}
+	
+}
+

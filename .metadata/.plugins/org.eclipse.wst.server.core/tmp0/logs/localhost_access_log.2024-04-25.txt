@@ -158,3 +158,13 @@
 0:0:0:0:0:0:0:1 - - [25/Apr/2024:21:15:10 +0530] "GET /A1_PracticeWebApp/ HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [25/Apr/2024:21:15:13 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 44
 0:0:0:0:0:0:0:1 - - [25/Apr/2024:21:15:25 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:37:45 +0530] "GET /A1_PracticeWebApp/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:37:51 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 30
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:38:24 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 44
+127.0.0.1 - - [25/Apr/2024:23:40:59 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:41:02 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 92
+127.0.0.1 - - [25/Apr/2024:23:42:42 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:42:47 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:46:09 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 500 1443
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:46:11 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 500 1443
+0:0:0:0:0:0:0:1 - - [25/Apr/2024:23:46:37 +0530] "POST /A1_PracticeWebApp/sss HTTP/1.1" 404 732
