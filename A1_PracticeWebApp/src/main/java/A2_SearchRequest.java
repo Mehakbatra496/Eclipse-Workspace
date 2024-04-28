@@ -33,12 +33,16 @@ public class A2_SearchRequest extends HttpServlet
 //		pw.print("</body>");
 //
 //		pw.print("</html>");
+		
+		
 //		//request response commutincaton by server to browser ends
 //
-//		//sendError commutincaton by server to browser starts
+//		sendError commutincaton by server to browser starts
 //
-////				res.sendError(404,"hello mehak, page not found"); 
-//		//sendError commutincaton by server to browser ends
+//				res.sendError(404,"hello mehak, page not found"); 
+		
+		
+		//sendError commutincaton by server to browser ends
 //		
 //		
 //		//communication via rtedirection starts
@@ -49,16 +53,16 @@ public class A2_SearchRequest extends HttpServlet
 //		pw.print("<body>");
 //pw.print("<h2>");
 //		pw.println("You searched - "+search1);
+		
 //		pw.print("</h2>");
-//		pw.print("<a href=\"https://www.google.com\">Click me</a>");
+		pw.print("<a href=\"https://www.google.com\">Click me</a>");
 //
 //		pw.println("</body>");
 //c
 //		pw.print("</html>");
 //
 		//communication via redirection ends
-//		res.setStatus(HttpServletResponse.SC_FOUND);
-//		res.setHeader("Location", "https://www.google.com");
+//		res.setStatus(HttpServletRessps://fs.blog/newsletter/");
 		
 //		res.sendRedirect("New1.html");
 		
